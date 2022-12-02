@@ -1,0 +1,471 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.clr{
+    clear: both;
+}
+.full-wrapper{
+    width: 100%;
+}
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+ul,ol{
+    list-style-type: none;
+}
+/* Header part start */
+.header{
+    
+    background: rgba(0, 0, 0, 0.44);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+.logo{
+    float: left;
+    width: 270px;
+    padding-top: 30px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+.menu {
+    width: 900px;
+    text-align: right;
+    float: left;
+}
+.menu ul li{
+    display: inline-block;
+    
+
+}
+.menu ul li a{
+    color: aliceblue;
+    line-height: 90px;
+    padding-left: 40px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+
+}
+.menu ul li a:hover{
+    color: #28b8d8;
+    transition: all linear 0.5s;
+}
+/* Header part end */
+
+/* Bnner part start */
+
+
+
+
+.banner{
+   
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    max-width: 100%;
+    background: url(../img/Banner.jpg);
+}
+.text{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+.text h1{
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+
+}
+.text h2{
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+
+}
+.text p{
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+
+}
+/* Bnner part end */
+/* Service up start */
+.service-up{
+    background: rgb(236, 233, 233);
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    text-align: center;
+
+}
+.text-one{
+   
+
+}
+.text-one h1{
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+
+}
+.text-one p{
+    margin-top: 20px;
+
+}
+/* Service up end */
+/* Service part start */
+.service{
+    background: rgb(236, 233, 233);
+
+}
+.service-text{
+    background: rgb(236, 233, 233);
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    font-size: 14px;
+}
+.section{
+    
+
+}
+.one{
+    float: left;
+    width: 32%;
+    border: 1px solid rgb(253, 217, 217) ;
+    margin-left: 11px;
+
+}
+.one img {
+    margin-left: 18px;
+    margin-top: 18px;
+}
+.one-text{
+   text-align: center;
+}
+.one-text h1{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+}
+.one-text p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/* Service part end */
+/* INSTAGRAM PART START */
+.instagram{
+    background: rgb(77, 69, 69);
+    margin-top: 125px;
+    
+}
+.text-insta{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        text-align: center;
+        text-transform: uppercase;
+        color: rgb(252, 244, 244);
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        position: relative;
+        
+}
+.text-insta h1::after {
+    height: 1px;
+    width: 166px;
+    background: rgb(255, 243, 243);
+    position: absolute;
+    content: '';
+    padding-top: 4px;
+    margin-top: 17px;
+    margin-left: 23px;
+}
+.text-insta h1::before {
+    height: 1px;
+    width: 166px;
+    background: rgb(255, 245, 245);
+    position: absolute;
+    content: '';
+    padding-top: 4px;
+    margin-top: 15px;
+    margin-left: -187px;
+}
+.shot-section{
+
+}
+.shot{
+    width: 25%;
+    float: left;
+    
+
+}
+.text-insta-two {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(252, 244, 244);
+    position: relative;   
+}
+
+.text-insta-two a{
+    text-align: center;
+    border: 1px solid #797979;
+    display: inline-block;
+    padding: 15px 20px;
+    color: #9b9191;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+ 
+.journal{
+    color: black;
+}
+.journal h2::after {
+    height: 1px;
+    width: 166px;
+    background: rgb(82, 75, 75);
+    position: absolute;
+    content: '';
+    padding-top: 4px;
+    margin-top: 17px;
+    margin-left: 23px;
+}
+.journal h2::before {
+    height: 1px;
+    width: 166px;
+    background: rgb(73, 62, 62);
+    position: absolute;
+    content: '';
+    padding-top: 4px;
+    margin-top: 15px;
+    margin-left: -187px;
+}
+/* INSTAGRAM PART END */
+/* Journal table start */
+.journal-table{
+    float: left;
+    width: 32%;
+    border: 1px solid rgb(231, 205, 205);
+    text-align: center;
+    color: gray;
+    margin-right: 12px;
+}
+.journal-table h4{
+    margin-top:15px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    line-height: 30px;
+}
+.journal-table img {
+
+    max-width: 90%;
+    margin-bottom: 20px;
+    margin-top: 22px;
+}
+.journal-table h5{
+    color: gray;
+}
+.journal-table p{}
+.blog-fotter{
+   margin-top: 50px;
+
+}
+.read-more{
+    float: left;
+    width: 70%;
+}
+.like{
+    float: left;
+    width: 30%;
+}
+/* Journal table END */
+/* About section start */
+.about-section{
+    float: left;
+    margin-top: 133px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 50px;
+
+}
+.about{
+    float: left;
+    width: 45%;
+}
+.about h1{
+    margin-bottom: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 44px;
+
+}
+.about h1::after{
+    height: 1px;
+    width: 166px;
+    background: rgb(97, 84, 84);
+    position: absolute;
+    content: '';
+    padding-top: 1px;
+    margin-top: 11px;
+    margin-left: 23px;
+}
+.about-image{
+    float: left;
+    width: 50%;
+
+}
+.about-text{
+    margin: 0 auto;
+    float: left;
+    width: 40%;
+    margin-left: 52px;
+}
+.about-text p{
+    margin: 20px 0px;
+    color: gray;
+}
+.logo-part{
+    float: left;
+    width: 20%;
+    margin: 0 auto;
+    font-size: 50px;
+    margin-top: 60px;
+    color: rgb(83, 75, 75);
+}
+.text-part{
+    float: left;
+    width: 75%;
+    
+
+}
+.text-part h1{
+    margin-top: 24px;
+    color: rgb(68, 57, 57);
+
+
+}
+.text-part p{
+    margin-top: -30px;
+    color: gray;
+
+}
+.services{
+    float: left;
+    width: 45%;
+    margin-left: 115px;
+}
+
+.services h1{
+    margin-bottom: 50px;
+    
+}
+.services h2{
+    font-size: 20px;
+    margin-bottom: 48px;
+    text-transform: uppercase;
+    position: relative ;
+}
+.services h2::after{
+    height: 1px;
+    width: 166px;
+    background: rgb(97, 84, 84);
+    position: absolute;
+    content: '';
+    padding-top: 1px;
+    margin-top: 11px;
+    margin-left: 23px;
+}
+.photography{
+
+}
+.m-video{
+
+}
+.p-retouching{
+
+}
+/* About section End */
+/* Fotter part start */
+.fotter-part{
+    background: #363232;
+    min-height: 500px;
+    color: antiquewhite;
+    
+}
+.fotter{
+    float: left;
+    width: 23%;
+    margin-left: 20px;
+    line-height: 30px;
+    padding-top: 150px;
+    
+    
+}
+.touch{}
+.fotter h1{
+    font-weight: 400;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.fotter h5{
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif
+    color: gray;
+
+}
+.fotter p{
+    font-size: 15px;
+    font-weight: 400;
+    
+
+    
+}
+.twitter{}
+.popular{}
+.abouts{}
+/* Fotter part End */
+/* Bottom part start */
+.bottom{
+    background: #000000;
+    
+}
+.bottom h3{
+    text-align: center;
+    color: antiquewhite;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+/* Bottom part end */
+
+
+
+
+
